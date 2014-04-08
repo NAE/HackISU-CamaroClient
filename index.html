@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="slider/js/bootstrap-slider.js"></script>
+<link rel="stylesheet" type="text/css" href="slider/css/slider.css"/>
+
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<img src="img/logo.png" id="banner" />
+<div id="bodycontainer">
+	<div id="mainscreen">
+		<img src="http://hacknile.student.iastate.edu/admin/cam.html" id="screenimage" />
+	</div>
+
+	<div id="controls">
+		<div id="controls-container">
+			<center>
+				<div id="arrows">
+					<h3><span id="velocitybox">0</span></h3>
+					<br>
+					<img src="img/up.png" id="uparrow" class="arrow" />
+					<br>
+					<img src="img/left.png" id="leftarrow" class="arrow" />
+					<img src="img/down.png" id="downarrow" class="arrow" />
+					<img src="img/right.png" id="rightarrow" class="arrow" />
+				</div>
+				<input id="velocityslider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="127" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical" data-slider-selection="after" data-slider-tooltip="show">
+			</center>
+		</div>
+		Use slider to control velocity.<br>
+		Use arrow keys to control movement.<br>
+	</div>
+</div>
+
+</body>
+</html>

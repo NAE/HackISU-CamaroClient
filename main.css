@@ -1,0 +1,83 @@
+body, html {
+	background: #D1D1D1;
+	text-align: center;
+}
+
+#banner {
+}
+
+#bodycontainer {
+	width: 850px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	padding: 10px;
+	box-shadow: 0em 0em 1em black;
+	background: #F5F5F5;
+}
+
+#mainscreen {
+	width: 600px;
+	height: 337.5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0em 0em .5em black;
+	padding: 0px;
+	float: left;
+}
+
+#screenimage {
+	width: 600px;
+	height: 337.5px;
+}
+
+#controls {
+	margin-top: 50px;
+	float: right;
+}
+
+	
+#controls-container {
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	background: #05568D;
+	border: 1px solid black;
+	box-shadow: 0em 0em .5em black;
+	
+}
+
+#arrows {
+	float: left;
+	margin-right: 10px;
+}
+
+#uparrow {
+	margin-left: 4px;
+	margin-bottom: 3px;
+}
+
+#velocityslider {
+	float: left;
+}
+
+#velocitybox {
+	height: 30px;
+	color: #DC5F00;
+}
+
+.arrow {
+	width: 32px;
+	height: 32px;
+	padding: 3px;
+	border: 1px solid black;
+	background: #ADADAD;
+	transform: rotate(180deg);
+}
+
+.arrow-depressed {
+	background: white;
+	box-shadow: 0em 0em .5em black;
+}
